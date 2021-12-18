@@ -76,18 +76,13 @@ function ProductPage(){
 
 
 
-          <a
-            
-            className={styles.card}
-          >
+          <a className={styles.card}>
                             <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/11/8740677/335010686/1/1_org_zoom.jpg" alt=" "/>
 
             <p className="py-2">Mickey Mouse Nakışlı Oversize Hoodie</p>
           </a>
 
-          <a
-            className={styles.card}
-          >
+          <a className={styles.card}>
                             <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/11/8737087/335005926/1/1_org_zoom.jpg" alt=" "/>
 
             <p className="py-2">
@@ -95,10 +90,7 @@ function ProductPage(){
             </p>
           </a>
 
-          <a
-            
-            className={styles.card}
-          >
+          <a className={styles.card}>
                     <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty268/product/media/images/20211211/10/8729862/334998402/1/1_org_zoom.jpg" alt=" "/>
 
             <p className="py-2">Simpsons Nakışlı Oversize Hoodie</p>
@@ -106,10 +98,7 @@ function ProductPage(){
 
 
 
-          <a
-            
-            className={styles.card}
-          >
+          <a className={styles.card}>
                     <img  src="https://cdn.dsmcdn.com/mnresize/400/-/ty267/product/media/images/20211210/13/8283503/334450464/1/1_org_zoom.jpg" alt=" "/>
 
             <p className="py-2">Swoosh Pokemon Squirtle Nakışlı Oversize Hoodie</p>
