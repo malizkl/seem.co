@@ -13,17 +13,8 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-
     
 
-
-    
-
-    
-
-    
-
-    
       <div className="site-container">
 
         <div className="space-y-4">
