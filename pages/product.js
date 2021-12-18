@@ -1,41 +1,22 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
-import React from 'react';
-import Link from "next/link"
 
 
 
 
-
-export default function Home() {
-  return (
-
-
-    
-
-    
-
-    
-
-    
-      <div className="site-container">
+function ProductPage(){
+    return (
+    <div className="site-container">
 
         <div className="space-y-4">
 
             <h1 className="text-2xl text-gray-500 flex items-center justify-items-center justify-center">
-                FEATURED COLLECTION
+                ALL PRODUCTS
             </h1>
-
-       
-
-
-            
-
 
             <div className={styles.grid}>
 
 
+            
             <a className={styles.card}>
             <img src="https://cdn.dsmcdn.com/mnresize/400/-/ty269/product/media/images/20211211/15/8879043/335167559/1/1_org_zoom.jpg" alt=" "/>
 
@@ -137,7 +118,6 @@ export default function Home() {
 
 
 
-
           
 
 
@@ -150,25 +130,16 @@ export default function Home() {
 
 
 
+
         </div>
-        {/* WhatsApp icon */}
-
-        
-
-       
-      
-      </div>
 
 
 
 
-  )
 
 
+    </div>
 
-
+    )
 }
-
-
-
-
+export default ProductPage
